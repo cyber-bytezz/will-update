@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
+	<title>Exploring-Vulnerablities & Security</title>
+	<link rel="stylesheet" type="text/css" href="subjects.css">
+	<script type="text/javascript" src="../script.js"></script>
+</head>
+<body>
+
+	<!-- NAVIGATION -->
+	<header>
+		<div class="nav" id="nav">
+			<div id="learned-logo">
+			<a href="../index.html"><img src="../images/icon/logo.png" style="width: 120px;"></a></div>
+			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
+			<ul id="list-switch">
+				<li><a href="#"><img src="../images/courses/d1.png" class="icon">Web</a></li>
+				<li><a href="hack.html"><img src="../images/courses/paper.png" class="icon">Hacking-LikeEliot</a></li>
+				<li><a href="computer_courses.html"><img src="../images/courses/computer.png" class="icon">Computer Arthitechere</a></li>
+				<li><a href="computer_courses.html#data"><img src="../images/courses/data.png" class="icon">Data Structures</a></li>
+				<li><a href="computer_courses.html#algo"><img src="../images/courses/algo.png" class="icon">Programming</a></li>
+				<li><a href="computer_courses.html#projects"><img src="../images/courses/projects.png" class="icon">Projects</a></li>
+			</ul>
+			<div class="search" id="search-switch">
+				<input type="text" placeholder="Search" class="srch"><button id="srchbtn"><img src="../images/icon/search.png"></button>
+			</div>
+		</div>
+	</header>
+
+	<div class="title">
+		<span>Exploring Vulnerabilities and Security<br>on LearnxD</span>
+		<div class="shortdesc">
+			<p>Uncover the Secrets of Web Hacking: Explore vulnerabilities, master defenses, and secure your digital world with our comprehensive guide.<br>Using This we Can Analyse Web-Technology</p>
+		</div>
+	</div>
+
+<!-- Quick Links -->
+	<div class="course">
+		<div class="cbox">
+		<div class="det"><a href="https://github.com/payloadbox/xss-payload-list" target="_blank">Cross-site Scripting(XSS)</a></div>
+		<div class="det"><a href="https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_sql_injection.htm" target="_blank">Sql Injection</a></div>
+		<div class="det"><a href="https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/?utm_source=google&utm_medium=cpc&utm_campaign=sw-waf-IN&utm_content=&utm_term=csrf&gad=1&gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_kZ9f7YZk5Do82B19wG4JSD08ToDGf8tmwUVnxLdyZImrSJmys3f6gaAgGjEALw_wcB" target="_blank">CSRF</a></div>
+		<div class="det"><a href="https://spanning.com/blog/file-inclusion-vulnerabilities-lfi-rfi-web-based-application-security-part-9/" target="_blank">RIF & LFI</a></div>
+		<div class="det"><a href="https://portswigger.net/web-security/ssrf" target="_blank">SSRF</a></div>
+		<div class="det"><a href="https://www.synopsys.com/glossary/what-is-clickjacking.html#:~:text=Clickjacking%20is%20an%20attack%20that,describes%20what%20is%20going%20on." target="_blank">Clickjacking</a></div>
+		<div class="det"><a href="https://owasp.org/www-community/attacks/Session_fixation" target="_blank">Session Hijacking & Session Fixation</a></div>
+		<div class="det"><a href="https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/#:~:text=A%20distributed%20denial%2Dof%2Dservice%20(DDoS)%20attack%20is,a%20flood%20of%20Internet%20traffic." target="_blank">Ddos Attacks</a></div>
+		</div>
+		<div class="cbox">
+		<div class="det"><a href="https://portswigger.net/web-security/xxe">XXE Attacks</a></div>
+		<div class="det"><a href="https://portswigger.net/web-security/file-upload#:~:text=File%20upload%20vulnerabilities%20are%20when,type%2C%20contents%2C%20or%20size" target="_blank">File Upload Vulnerabilities</a></div>
+		<div class="det"><a href="https://owasp.org/www-community/attacks/Command_Injection#:~:text=Command%20injection%20is%20an%20attack,.)%20to%20a%20system%20shell." target="_blank">Command Injection</a></div>
+		<div class="det"><a href="https://www.tutorialspoint.com/security_testing/testing_security_misconfiguration.htm">Security Misconfiguration</a></div>
+		<div class="det"><a href="https://www.acunetix.com/websitesecurity/directory-traversal/">Discovery Traversal</a></div>
+		<div class="det"><a href="https://www.fortinet.com/resources/cyberglossary/brute-force-attack#:~:text=A%20brute%20force%20attack%20is,and%20organizations'%20systems%20and%20networks" target="_blank">Brute-Fore Attacks</a></div>
+		<div class="det"><a href="https://blog.yeswehack.com/yeswerhackers/web-application-firewall-bypass/" target="_blank">WAF Bypass</a></div>
+		</div>
+		<div class="cbox">
+		<div class="det"><a href="#red">Red-Teaming</a></div>
+		<div class="det"><a href="#web">Web-Pentest</a></div>
+		<div class="det"><a href="#kali">Hacking With Kali</a></div>
+		<div class="det"><a href="#network">Network</a></div>
+		<div class="det"><a href="#api">Api</a></div>
+		<div class="det"><a href="#math">Soon=)</a></div>
+		<div class="det"><a href="#math">Soon=)</a></div>
+		<div class="det"><a href="#books">Books</a></div>
+		</div>
+	</div>
+
+	<div class="inbt">
+		Accelerate your career with Those Guidence Totally Designed For Beginners #Happy-Hacking =)
+	</div>
+
+<!-- COURSES AVAILABLE -->
+	<div class="ccard">
+	<center>
+		<div class="ccardbox">
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/01.jpg"></div>
+				<a href="#organic"><div class="spart">Red-Teaming <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/02.jpg"></div>
+				<a href="#inorganic"><div class="spart">Web-Penetration Testing <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/03.jpg"></div>
+				<a href="#physical"><div class="spart">Hacking With Kail-Linux<img src="../images/icon/dropdown.png"></div></a>
+			</div>
+		</div>
+		<div class="ccardbox">
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/04.jpg"></div>
+				<a href="#physics"><div class="spart">Networking-For Hackers <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/05.jpg"></div>
+				<a href="#math"><div class="spart">APIs Hacking <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/06.jpg"></div>
+				<a href="#sample_papers"><div class="spart">Hacking With Python <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+		</div>
+	</center>
+	</div>
+
+<!-- VIDEOS SECTION -->
+	<div class="title2" id="red">
+		<span>Red Teaming</span>
+		<div class="shortdesc2">
+			<p>Unleash your skills in web penetration testing and hacking using Kali Linux, mastering the art of networking to uncover vulnerabilities and strengthen security defenses.</p>
+		</div>
+	</div>
+	
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/01.jpg">
+					<iframe src="https://www.youtube.com/embed/Vdd4lRXB7zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/01.jpg">
+					<iframe src="https://www.youtube.com/embed/Vdd4lRXB7zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/01.jpg">
+					<iframe src="https://www.youtube.com/embed/Vdd4lRXB7zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/01.jpg">
+					<iframe src="https://www.youtube.com/embed/Vdd4lRXB7zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/01.jpg">
+					<iframe src="https://www.youtube.com/embed/Vdd4lRXB7zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/01.jpg">
+					<iframe src="https://www.youtube.com/embed/Vdd4lRXB7zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/01.jpg">
+					<iframe src="https://www.youtube.com/embed/Vdd4lRXB7zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/01.jpg">
+					<iframe src="https://www.youtube.com/embed/Vdd4lRXB7zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=Vdd4lRXB7zE&list=PLTnRtjQN5iea6dLA_4i3qFFX0kwvdL0bL&index=1" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+<!-- VIDEOS SECTION -->
+
+	<div class="title2" id="web">
+		<span>Web penetration-Testing</span>
+		<div class="shortdesc2">
+			<p>Harness the power of Kali Linux to assess and exploit web applications, identifying and patching vulnerabilities to ensure robust security measures. </p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/02.jpg">
+					<iframe src="https://www.youtube.com/embed/OVwCzStAzlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/02.jpg">
+					<iframe src="https://www.youtube.com/embed/OVwCzStAzlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/02.jpg">
+					<iframe src="https://www.youtube.com/embed/OVwCzStAzlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/02.jpg">
+					<iframe src="https://www.youtube.com/embed/OVwCzStAzlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/02.jpg">
+					<iframe src="https://www.youtube.com/embed/OVwCzStAzlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/02.jpg">
+					<iframe src="https://www.youtube.com/embed/OVwCzStAzlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/02.jpg">
+					<iframe src="https://www.youtube.com/embed/OVwCzStAzlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/02.jpg">
+					<iframe src="https://www.youtube.com/embed/OVwCzStAzlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=OVwCzStAzlU" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+<!-- VIDEOS SECTION -->
+
+	<div class="title2" id="kali">
+		<span>Hacking with Kali Linux</span>
+		<div class="shortdesc2">
+			<p> Dive into the world of ethical hacking using the comprehensive Kali Linux platform, mastering its tools and methodologies to simulate real-world attacks and enhance security practices.</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/03.jpg">
+					<iframe src="https://www.youtube.com/embed/AnwgxRtWXLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/03.jpg">
+					<iframe src="https://www.youtube.com/embed/AnwgxRtWXLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/03.jpg">
+					<iframe src="https://www.youtube.com/embed/AnwgxRtWXLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/03.jpg">
+					<iframe src="https://www.youtube.com/embed/AnwgxRtWXLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/03.jpg">
+					<iframe src="https://www.youtube.com/embed/AnwgxRtWXLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/03.jpg">
+					<iframe src="https://www.youtube.com/embed/AnwgxRtWXLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/03.jpg">
+					<iframe src="https://www.youtube.com/embed/AnwgxRtWXLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/03.jpg">
+					<iframe src="https://www.youtube.com/embed/AnwgxRtWXLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=AnwgxRtWXLI&list=PLhfrWIlLOoKMe1Ue0IdeULQvEgCgQ3a1B" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+
+<!-- VIDEOS SECTION -->
+
+	<div class="title2" id="network">
+		<span>Networking for hackers</span>
+		<div class="shortdesc2">
+			<p> Explore the intricate world of networking, equipping yourself with the knowledge and tools needed to navigate and exploit network infrastructures for effective hacking.</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/04.jpg">
+					<iframe src="https://www.youtube.com/embed/arOhCkChBHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/04.jpg">
+					<iframe src="https://www.youtube.com/embed/arOhCkChBHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/04.jpg">
+					<iframe src="https://www.youtube.com/embed/arOhCkChBHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/04.jpg">
+					<iframe src="https://www.youtube.com/embed/arOhCkChBHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/04.jpg">
+					<iframe src="https://www.youtube.com/embed/arOhCkChBHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/04.jpg">
+					<iframe src="https://www.youtube.com/embed/arOhCkChBHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/04.jpg">
+					<iframe src="https://www.youtube.com/embed/arOhCkChBHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/04.jpg">
+					<iframe src="https://www.youtube.com/embed/arOhCkChBHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=arOhCkChBHY&list=PLpWoOAg0w29xwNQMcb0Ol0QyZ26OC7iAU" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+<!-- VIDEOS SECTION -->
+
+	<div class="title2" id="api">
+		<span>Hacking with APIs</span>
+		<div class="shortdesc2">
+			<p>Learn how to manipulate and exploit Application Programming Interfaces (APIs) using various hacking techniques, bolstering your ability to uncover and mitigate API-related vulnerabilities.</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/05.jpg">
+					<iframe src="https://www.youtube.com/embed/M_guA0wjrLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/05.jpg">
+					<iframe src="https://www.youtube.com/embed/M_guA0wjrLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/05.jpg">
+					<iframe src="https://www.youtube.com/embed/M_guA0wjrLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/05.jpg">
+					<iframe src="https://www.youtube.com/embed/M_guA0wjrLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/05.jpg">
+					<iframe src="https://www.youtube.com/embed/M_guA0wjrLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/05.jpg">
+					<iframe src="https://www.youtube.com/embed/M_guA0wjrLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/05.jpg">
+					<iframe src="https://www.youtube.com/embed/M_guA0wjrLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/05.jpg">
+					<iframe src="https://www.youtube.com/embed/M_guA0wjrLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=M_guA0wjrLg" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+
+<!-- SAMPLE PAPERS -->
+	<div class="title2" id="books">
+		<span>Hacking-Books</span>
+		<div class="shortdesc2">
+			<p>Make Your Hands To Do Work</p>
+		</div>
+	</div>
+
+	<div class="sample">
+		<ul>
+			<li><a href="../samplePapers/01.pdf" target="_blank">Those sections update soon</a></li>
+			<li><a href="../samplePapers/01.pdf" target="_blank">Black-Hat Python</a></li>
+			<li><a href="../samplePapers/02.pdf" target="_blank">Offensive Shell Code</a></li>
+		</ul>
+		<ul>
+			<li><a href="../samplePapers/03.pdf" target="_blank">Linux-For Hackers</a></li>
+			<li><a href="../samplePapers/04.pdf" target="_blank">Mastering-Kali Linux Mastering</a></li>
+			<li><a href="../samplePapers/05.pdf" target="_blank">Drone-Hacking</a></li>
+		</ul>
+		<ul>
+			<li><a href="../samplePapers/06.pdf" target="_blank">Python-For Hackers</a></li>
+			<li><a href="../samplePapers/07.pdf" target="_blank">Red-Team Book</a></li>
+			<li><a href="../samplePapers/p1.pdf" target="_blank">Shell-Scripting</a></li>
+		</ul>
+	</div>
+	<div class="sample lastSample">
+		<ul>
+			<li><a href="https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">Python for OSINT</a></li>
+			<li><a href= "https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">Social-Enginnering Book</a></li>
+			<li><a href="https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">OSCP-300</a></li>
+		</ul>
+		<ul>
+			<li><a href="https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">Javascript For hackers-101</a></li>
+			<li><a href="https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">Javascript For Hackers-201</a></li>
+			<li><a href="https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">Soon..</a></li>
+		</ul>
+		<ul>
+			<li><a href="https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">Grey-Hat C#</a></li>
+			<li><a href="https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">Soon..</a></li>
+			<li><a href="https://giphy.com/embed/INSCgTi2iQB6KuMQsQ/video" target="_blank">Soon..</a></li>
+		</ul>
+	</div>
+
+<!-- FOOTER -->
+<footer>
+	<div class="footer-container">
+		<div class="left-col">
+			<img src="../images/icon/logo.png" style="width: 100px; height: fit-content;">
+			<div class="logo"></div>
+			<div class="social-media">
+				<a href="#"><img src="../images/icon\fb.png"></a>
+				<a href="#"><img src="../images/icon\insta.png"></a>
+				<a href="#"><img src="../images/icon\tt.png"></a>
+				<a href="#"><img src="../images/icon\ytube.png"></a>
+				<a href="#"><img src="../images/icon\linkedin.png"></a>
+			</div><br><br>
+			<p class="rights-text">Copyright © 2023 Created By Aro x Cyber-Bytezz.</p>
+			<br><p><img src="../images/icon/location.png"> 127.0.0.1<br>Anynomous-000000</p><br>
+			<p><img src="../images/icon/phone.png"> +91-1234-567-890<br><img src="../images/icon/mail.png">&nbsp; chandru2021007@gmail.com</p>
+		</div>
+		<div class="right-col">
+			<h1 style="color: #9f5b5b">Our Newsletter</h1>
+			<div class="border"></div><br>
+			<p>Enter Your Email to get our News and updates.</p>
+			<form class="newsletter-form">
+				<input class="txtb" type="email" placeholder="Enter Your Email">
+				<input class="btn" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

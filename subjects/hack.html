@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
+	<title>Hack Like Pro</title>
+	<link rel="stylesheet" type="text/css" href="subjects.css">
+	<script type="text/javascript" src="../script.js"></script>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+	<header>
+		<div class="nav" id="nav">
+			<div id="learned-logo">
+			<a href="../index.html"><img src="../images/icon/logo.png" style="width: 120px;"></a></div>
+			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
+			<ul id="list-switch">
+				<li><a href="web.html"><img src="../images/courses/d1.png" class="icon">Web</a></li>
+				<li><a href="hack.html"><img src="../images/courses/paper.png" class="icon">Hacking-Like Eliot</a></li>
+				<li><a href="computer_courses.html"><img src="../images/courses/computer.png" class="icon">Computer Courses</a></li>
+				<li><a href="computer_courses.html#data"><img src="../images/courses/data.png" class="icon">Data Structures</a></li>
+				<li><a href="computer_courses.html#algo"><img src="../images/courses/algo.png" class="icon">Algorithm</a></li>
+				<li><a href="computer_courses.html#projects"><img src="../images/courses/projects.png" class="icon">Projects</a></li>
+			</ul>
+			<div class="search" id="search-switch">
+				<input type="text" placeholder="Search" class="srch"><button id="srchbtn"><img src="../images/icon/search.png"></button>
+			</div>
+		</div>
+	</header>
+
+
+<!-- Main Title of the Page -->
+	<div class="title">
+		<span>The Way You Think The Way You Hack.</span>
+		<div class="shortdesc">
+			<p>When We Know How to Make Teachnologies We Can Easily Break It. </p>
+		</div>
+	</div>
+
+
+<!-- Some KeyWords related to topic -->
+	<div class="course">
+		<div class="cbox">
+		<div class="det"><a href="https://github.com/vxunderground/MalwareSourceCode">Malware-Development</a></div>
+		<div class="det"><a href="https://www.opswat.com/technologies/zero-day-prevention?utm_campaign__c=&utm_source__c=google&utm_medium__c=paid&utm_term__c=zero-day%20attack&utm_term=zero-day%20attack&utm_campaign=NA+%7C+Search+%7C+Brand+(Phrase)&utm_source=google&utm_medium=paid&hsa_acc=7260173240&hsa_cam=20317001208&hsa_grp=155948569852&hsa_ad=663992349975&hsa_src=g&hsa_tgt=kwd-2002327164944&hsa_kw=zero-day%20attack&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad=1&gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_nvfktMK0Hmo9P3X1XFa1kSM5boA_u5Ew3JUf1pb3vRsjvp5bEwLfMaAkwfEALw_wcB" target="_blank">Exploiting Zero-Day Vulnerabilities</a></div>
+		<div class="det"><a href="https://en.wikipedia.org/wiki/Botnet" target="_blank">Botnets and Command & Control Infrastructure</a></div>
+		<div class="det"><a href="https://www.phishing.org/phishing-techniques" target="_blank">Phishing Techniques</a></div>
+		<div class="det"><a href="https://www.chathamhouse.org/2022/02/what-cyber-attack?gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_nwedrxxrJUbSsYVgVlDschGZZSRCh8MhINhsw1wU4X-cFJNxM7BtIaAgp6EALw_wcB">DDoS Attacks</a></div>
+		<div class="det"><a href="https://www.checkpoint.com/cyber-hub/threat-prevention/ransomware/">Ransomware Attacks</a></div>
+		</div>
+		<div class="cbox">
+		<div class="det"><a href="https://portswigger.net/web-security/sql-injection"> SQL Injection</a></div>
+		<div class="det"><a href="https://ipspecialist.net/types-of-attacks-on-an-operating-system/">OS</a></div>
+		<div class="det"><a href="https://www.imperva.com/learn/application-security/apt-advanced-persistent-threat/"> Advanced Persistent Threats (APTs)</a></div>
+		<div class="det"><a href="https://www.bankbazaar.com/credit-card/credit-card-skimming.html" target="_blank"> Card Skimming</a></div>
+		<div class="det"><a href="https://www.beyondtrust.com/blog/entry/password-cracking-101-attacks-defenses-explained#:~:text=Password%20cracking%20(also%20called%2C%20password,to%20as%20'password%20crackers' "> Password Cracking</a></div>
+		<div class="det"><a href="https://www.cjtc.wa.gov/docs/default-source/course-required-forms/social-media-exploitation-dupont-wa.pdf?Status=Master&sfvrsn=610db4a4_3"> Social Media Exploitation</a></div>
+		<div class="det"><a href="https://socradar.io/top-5-dark-web-forums/" target="_blank">Underground Forums and Dark Web</a></div>
+		</div>
+		<div class="cbox">
+		<div class="det"><a href="#red">Red Teaming Methodology</a></div>
+		<div class="det"><a href="#recon">Reconnaissance Techniques</a></div>
+		<div class="det"><a href="#thread">Threat Modeling</a></div>
+		<div class="det"><a href="#social">Social Engineering Attacks:</a></div>
+		<div class="det"><a href="#sec">Physical Security Assessments</a></div>
+		<div class="det"><a href="#app">Application Security Testing</a></div>
+		<div class="det"><a href="#net">Network Security Assessments</a></div>
+		<div class="det"><a href="#post">Post-Exploitation Techniques</a></div>
+		</div>
+	</div>
+
+
+<!-- Courses Available -->
+	<div class="inbt">
+		Accelerate your career with GATE programs
+	</div>
+
+	<div class="ccard">
+	<center>
+		<div class="ccardbox">
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/13.jpg"></div>
+				<a href="#math"><div class="spart">2 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/14.jpg"></div>
+				<a href="#digital"><div class="spart">5 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/15.jpg"></div>
+				<a href="#coaa"><div class="spart">3 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/16.jpg"></div>
+				<a href="#database"><div class="spart">3 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/17.jpg"></div>
+				<a href="computer_courses.html#data"><div class="spart">6 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/18.jpg"></div>
+				<a href="#compiler"><div class="spart">2 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/19.jpg"></div>
+				<a href="#os"><div class="spart">1 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+			<div class="dcard">
+				<div class="fpart"><img src="../images/courses/20.jpg"></div>
+				<a href="#cn"><div class="spart">3 Courses <img src="../images/icon/dropdown.png"></div></a>
+			</div>
+		</div>
+	</center>
+	</div>
+
+
+<!-- Videos on ENGINEERING MATHEMATICS Lectures -->
+
+	<div class="title2" id="red">
+		<span>Red Teaming Methodology</span>
+		<div class="shortdesc2">
+			<p> Understanding the step-by-step process of conducting red team exercises..</p>
+		</div>
+	</div>
+	
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/13.jpg">
+					<iframe src="https://www.youtube.com/embed/OtcP8c4wZys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/13.jpg">
+					<iframe src="https://www.youtube.com/embed/OtcP8c4wZys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/13.jpg">
+					<iframe src="https://www.youtube.com/embed/OtcP8c4wZys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/13.jpg">
+					<iframe src="https://www.youtube.com/embed/OtcP8c4wZys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/13.jpg">
+					<iframe src="https://www.youtube.com/embed/OtcP8c4wZys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/13.jpg">
+					<iframe src="https://www.youtube.com/embed/OtcP8c4wZys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/13.jpg">
+					<iframe src="https://www.youtube.com/embed/OtcP8c4wZys"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/13.jpg">
+					<iframe src="https://www.youtube.com/embed/OtcP8c4wZys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=xxGyTHWrHZg" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+
+
+<!-- Videos on DIGITAL LOGIC Lectures -->
+
+	<div class="title2" id="recon">
+		<span>Reconnaissance Techniques</span>
+		<div class="shortdesc2">
+			<p>Gathering information about the target organization to identify potential vulnerabilities.</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/14.jpg">
+					<iframe src="https://www.youtube.com/embed/Ld5nK4vXc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/14.jpg">
+					<iframe src="https://www.youtube.com/embed/Ld5nK4vXc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/14.jpg">
+					<iframe src="https://www.youtube.com/embed/Ld5nK4vXc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/14.jpg">
+					<iframe src="https://www.youtube.com/embed/Ld5nK4vXc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/14.jpg">
+					<iframe src="https://www.youtube.com/embed/Ld5nK4vXc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/14.jpg">
+					<iframe src="https://www.youtube.com/embed/Ld5nK4vXc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/14.jpg">
+					<iframe src="https://www.youtube.com/embed/Ld5nK4vXc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/14.jpg">
+					<iframe src="https://www.youtube.com/embed/Ld5nK4vXc_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://youtu.be/-M7oIM8hKSU" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+
+
+<!-- Videos on COMPUTER ORGANIZATION and ARCHITECTURE Lectures -->
+
+	<div class="title2" id="thread">
+		<span> Threat Modeling</span>
+		<div class="shortdesc2">
+			<p> Assessing the risks and potential attack vectors based on the organization's assets and infrastructure.</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/15.jpg">
+					<iframe src="https://www.youtube.com/embed/oi_CfBe_umU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/15.jpg">
+					<iframe src="https://www.youtube.com/embed/oi_CfBe_umU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/15.jpg">
+					<iframe src="https://www.youtube.com/embed/oi_CfBe_umU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/15.jpg">
+					<iframe src="https://www.youtube.com/embed/oi_CfBe_umU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/15.jpg">
+					<iframe src="https://www.youtube.com/embed/oi_CfBe_umU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/15.jpg">
+					<iframe src="https://www.youtube.com/embed/oi_CfBe_umU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/15.jpg">
+					<iframe src="https://www.youtube.com/embed/oi_CfBe_umU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/15.jpg">
+					<iframe src="https://www.youtube.com/embed/oi_CfBe_umU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://youtu.be/oi_CfBe_umU" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+
+
+<!-- Videos on COMPILER Lectures -->
+
+	<div class="title2" id="social">
+		<span>Social Engineering Attacks</span>
+		<div class="shortdesc2">
+			<p>Employing psychological manipulation to exploit human vulnerabilities</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/16.jpg">
+					<iframe src="https://www.youtube.com/embed/U6pDqFhN82I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/16.jpg">
+					<iframe src="https://www.youtube.com/embed/U6pDqFhN82I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/16.jpg">
+					<iframe src="https://www.youtube.com/embed/U6pDqFhN82I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/16.jpg">
+					<iframe src="https://www.youtube.com/embed/U6pDqFhN82I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/16.jpg">
+					<iframe src="https://www.youtube.com/embed/U6pDqFhN82I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/16.jpg">
+					<iframe src="https://www.youtube.com/embed/U6pDqFhN82I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/16.jpg">
+					<iframe src="https://www.youtube.com/embed/U6pDqFhN82I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/16.jpg">
+					<iframe src="https://www.youtube.com/embed/U6pDqFhN82I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://youtu.be/U6pDqFhN82I" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+
+
+<!-- Videos on OPERATING SYSTEM Lectures -->
+
+
+<div class="title2" id="sec">
+		<span>Active Dierctory Enumeration</span>
+		<div class="shortdesc2">
+			<p>Active Directory enumeration is the process of extracting information about users, groups, and resources within an Active Directory environment.</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/17.jpg">
+					<iframe src="https://www.youtube.com/embed/-vjF3kgvWVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/17.jpg">
+					<iframe src="https://www.youtube.com/embed/-vjF3kgvWVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/17.jpg">
+					<iframe src="https://www.youtube.com/embed/-vjF3kgvWVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/17.jpg">
+					<iframe src="https://www.youtube.com/embed/-vjF3kgvWVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/17.jpg">
+					<iframe src="https://www.youtube.com/embed/-vjF3kgvWVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/17.jpg">
+					<iframe src="https://www.youtube.com/embed/-vjF3kgvWVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/17.jpg">
+					<iframe src="https://www.youtube.com/embed/-vjF3kgvWVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/17.jpg">
+					<iframe src="https://www.youtube.com/embed/-vjF3kgvWVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+
+<br><br>
+	<div class="click-me">
+		<a href="https://youtu.be/-vjF3kgvWVg" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+
+<!-- Videos on DATABASE Lectures -->
+
+<div class="title2" id="app">
+		<span>Application Security Testing</span>
+		<div class="shortdesc2">
+			<p>Conducting security assessments of web applications and identifying vulnerabilities.</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/18.jpg">
+					<iframe src="https://www.youtube.com/embed/k4J8ZdP5ihU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/18.jpg">
+					<iframe src="https://www.youtube.com/embed/k4J8ZdP5ihU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/18.jpg">
+					<iframe src="https://www.youtube.com/embed/k4J8ZdP5ihU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/18.jpg">
+					<iframe src="https://www.youtube.com/embed/k4J8ZdP5ihU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/18.jpg">
+					<iframe src="https://www.youtube.com/embed/k4J8ZdP5ihU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/18.jpg">
+					<iframe src="https://www.youtube.com/embed/k4J8ZdP5ihU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/18.jpg">
+					<iframe src="https://www.youtube.com/embed/k4J8ZdP5ihU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/18.jpg">
+					<iframe src="https://www.youtube.com/embed/k4J8ZdP5ihU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://youtu.be/k4J8ZdP5ihU" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+
+
+<!-- Videos on COMPUTER NETWORKS Lectures -->
+
+<div class="title2" id="net">
+		<span>Network Security Assessments</span>
+		<div class="shortdesc2">
+			<p>Scanning and testing the network infrastructure for potential weaknesses.</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="../images/courses/19.jpg">
+					<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="../images/courses/19.jpg">
+					<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="../images/courses/19.jpg">
+					<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="../images/courses/19.jpg">
+					<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="../images/courses/19.jpg">
+					<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="../images/courses/19.jpg">
+					<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="../images/courses/19.jpg">
+					<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="../images/courses/19.jpg">
+					<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+
+<br><br>
+	<div class="click-me">
+		<a href="https://youtu.be/qiQR5rTSshw" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+
+	
+
+<!-- Links for SAMPLE PAPERS of JEE MAINS & ADVANCED -->
+
+<div class="title2" id="net">
+	<span>Post-Exploitation Techniques</span>
+	<div class="shortdesc2">
+		<p>Expanding access and maintaining persistence within a compromised system.</p>
+	</div>
+</div>
+<center>
+	<div class="ccardbox2">
+		<div class="dcard2"><span class="tag" >1/8</span>
+			<div class="fpart2"><img src="../images/courses/20.jpg">
+				<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="dcard2"><span class="tag" >2/8</span>
+			<div class="fpart2"><img src="../images/courses/20.jpg">
+				<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="dcard2"><span class="tag" >3/8</span>
+			<div class="fpart2"><img src="../images/courses/20.jpg">
+				<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="dcard2"><span class="tag" >4/8</span>
+			<div class="fpart2"><img src="../images/courses/20.jpg">
+				<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	
+		<div class="dcard2"><span class="tag" >5/8</span>
+			<div class="fpart2"><img src="../images/courses/20.jpg">
+				<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="dcard2"><span class="tag" >6/8</span>
+			<div class="fpart2"><img src="../images/courses/20.jpg">
+				<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="dcard2"><span class="tag" >7/8</span>
+			<div class="fpart2"><img src="../images/courses/20.jpg">
+				<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="dcard2"><span class="tag" >8/8</span>
+			<div class="fpart2"><img src="../images/courses/20.jpg">
+				<iframe src="https://www.youtube.com/embed/qiQR5rTSshw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</center>
+
+<br><br>
+<div class="click-me">
+	<a href="https://youtu.be/qiQR5rTSshw" target="_blank">Click Here to Watch full playlist</a>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+	<div class="footer-container">
+		<div class="left-col">
+			<img src="../images/icon/logo.png" style="width: 100px; height: fit-content;">
+			<div class="logo"></div>
+			<div class="social-media">
+				<a href="#"><img src="../images/icon\fb.png"></a>
+				<a href="#"><img src="../images/icon\insta.png"></a>
+				<a href="#"><img src="../images/icon\tt.png"></a>
+				<a href="#"><img src="../images/icon\ytube.png"></a>
+				<a href="#"><img src="../images/icon\linkedin.png"></a>
+			</div><br><br>
+			<p class="rights-text">Copyright © 2023 Created By Aro x Cyber-Bytezz</p>
+			<br><p><img src="../images/icon/location.png"> 127.0.0.1<br>Anynomous-000000</p><br>
+			<p><img src="../images/icon/phone.png"> +91-1234-567-890<br><img src="../images/icon/mail.png">&nbsp; chandru2021007@gmail.com</p>
+		</div>
+		<div class="right-col">
+			<h1 style="color: #fff">Our Newsletter</h1>
+			<div class="border"></div><br>
+			<p>Enter Your Email to get our News and updates.</p>
+			<form class="newsletter-form">
+				<input class="txtb" type="email" placeholder="Enter Your Email">
+				<input class="btn" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
